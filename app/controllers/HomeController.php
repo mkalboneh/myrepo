@@ -13,6 +13,10 @@ class HomeController extends BaseController {
 		return View::make('hello');
 	}
 
+	public function hello()
+	{
+		echo 'fucken work';
+	}
 	public function authenticate()
 	{
 		echo "Hello";

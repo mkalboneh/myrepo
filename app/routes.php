@@ -17,3 +17,5 @@ Route::get('/test', function()
 });
 
 Route::get('/auth', 'HomeController@authenticate');
+
+Route::get('/', 'HomeController@hello');
