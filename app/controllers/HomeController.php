@@ -16,10 +16,10 @@ class HomeController extends BaseController {
 	public function authenticate()
 	{
 		echo "Hello";
-		$session = FacebookSession::setDefaultApplication('342442919241949', 'a2fe98cd32944981c660d759e7e8eb66');
-		// dd($session);
-		$helper = new FacebookRedirectLoginHelper('www.google.com');
-		$loginUrl = $helper->getLoginUrl();
+		// $session = FacebookSession::setDefaultApplication('342442919241949', 'a2fe98cd32944981c660d759e7e8eb66');
+		// // dd($session);
+		// $helper = new FacebookRedirectLoginHelper('www.google.com');
+		// $loginUrl = $helper->getLoginUrl();
 	}
 
 }
